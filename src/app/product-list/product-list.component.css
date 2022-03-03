@@ -12,3 +12,23 @@ h2{
     font-weight:700;
     margin-top: -20px;
   }
+
+  .container-kaikki {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.container-kaikki > * {
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 1rem 1rem 2rem 1rem;
+    border: 2px solid #DCDCDC;
+    border-radius: 8px;
+    margin: 0.5rem;
+}
+
+button {
+  margin: 2px;
+}
