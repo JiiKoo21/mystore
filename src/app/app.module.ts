@@ -17,6 +17,7 @@ import { ShippingComponent } from './shipping/shipping.component';
 import { CartService } from './cart.service';
 import { BackButtonDirective } from './back-button.directive';
 import { BackbtnComponent } from './backbtn/backbtn.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 
@@ -35,7 +36,7 @@ import { BackbtnComponent } from './backbtn/backbtn.component';
       { path: 'shipping', component: ShippingComponent },
     ])
   ],
-  declarations: [ AppComponent, TopBarComponent, ProductListComponent, ProductAlertsComponent, ProductDetailsComponent, CartComponent, ShippingComponent, BackButtonDirective, BackbtnComponent,  ],
+  declarations: [ AppComponent, TopBarComponent, ProductListComponent, ProductAlertsComponent, ProductDetailsComponent, CartComponent, ShippingComponent, BackButtonDirective, BackbtnComponent, FooterComponent,  ],
   bootstrap:    [ AppComponent ],
   providers: [CartService]
 })
